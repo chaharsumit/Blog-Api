@@ -11,7 +11,7 @@ var usersRouter = require('./routes/users');
 var profilesRouter = require('./routes/profiles');
 var articlesRouter = require('./routes/articles');
 
-mongoose.connect('mongodb://localhost/conduit', (err) => {
+mongoose.connect('mongodb+srv://chaharsumit:xtVHbtHtPypJgbTy@cluster0.frktj.mongodb.net/blogDB', (err) => {
   console.log(err ? err : "Database connected successfully");
 });
 
